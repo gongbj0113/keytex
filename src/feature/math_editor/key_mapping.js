@@ -5,7 +5,7 @@ const KeyMapping = [
         leftKeyStroke: 1,
         mode: ["m0", "m1"],
         displayCode: "numpad1",
-        display: "x<sub>&#9633;</sub>"
+        display: "<a style='color:blue;'>x<sub>&#9633;</sub></a>"
     },
     {
         code: "Numpad2",
@@ -13,7 +13,7 @@ const KeyMapping = [
         leftKeyStroke: 2,
         mode: ["m0", "m1"],
         displayCode: "numpad2",
-        display: "&#9633;/&#9633;"
+        display: "<a style='color:blue;'>&#9633;/&#9633;</a>"
     },
     {
         code: "Numpad3",
@@ -21,7 +21,7 @@ const KeyMapping = [
         leftKeyStroke: 0,
         mode: ["m0", "m1"],
         displayCode: "numpad3",
-        display: "·"
+        display: "<a style='color:blue;'>·</a>"
     },
     {
         code: "Numpad4",
@@ -29,7 +29,7 @@ const KeyMapping = [
         leftKeyStroke: 1,
         mode: ["m0", "m1"],
         displayCode: "numpad4",
-        display: "x<sup>&#9633;</sup>"
+        display: "<a style='color:blue;'>x<sup>&#9633;</sup></a>"
     },
     {
         code: "Numpad5",
@@ -37,7 +37,7 @@ const KeyMapping = [
         leftKeyStroke: 2,
         mode: ["m0", "m1"],
         displayCode: "numpad5",
-        display: "<sup>&#9633;</sup>√x"
+        display: "<a style='color:blue;'><sup>&#9633;</sup>√x</a>"
     },
     {
         code: "Numpad6",
@@ -45,7 +45,7 @@ const KeyMapping = [
         leftKeyStroke: 0,
         mode: ["m0", "m1"],
         displayCode: "numpad6",
-        display: "ln"
+        display: "<a style='color:blue;'>ln</a>"
     },
     {
         code: "Numpad7",
@@ -53,7 +53,7 @@ const KeyMapping = [
         leftKeyStroke: 0,
         mode: ["m0", "m1"],
         displayCode: "numpad7",
-        display: "x<sup>2</sup>"
+        display: "<a style='color:blue;'>x<sup>2</sup></a>"
     },
     {
         code: "Numpad8",
@@ -61,7 +61,7 @@ const KeyMapping = [
         leftKeyStroke: 1,
         mode: ["m0", "m1"],
         displayCode: "numpad8",
-        display: "<sup>2</sup>√x"
+        display: "<a style='color:blue;'><sup>2</sup>√x</a>"
     },
     {
         code: "Numpad9",
@@ -69,7 +69,7 @@ const KeyMapping = [
         leftKeyStroke: 1,
         mode: ["m0", "m1"],
         displayCode: "numpad9",
-        display: "log"
+        display: "<a style='color:blue;'>log</a>"
     },
 
     {
@@ -78,7 +78,7 @@ const KeyMapping = [
         leftKeyStroke: 0,
         mode: ["m1"],
         displayCode: "digit1",
-        display: "Δ"
+        display: "<a style='color:blue;'>Δ</a>"
     },
     {
         code: "Digit2",
@@ -86,7 +86,7 @@ const KeyMapping = [
         leftKeyStroke: 0,
         mode: ["m1"],
         displayCode: "digit2",
-        display: "⇐"
+        display: "<a style='color:blue;'>⇐</a>"
     },
     {
         code: "Digit3",
@@ -95,7 +95,7 @@ const KeyMapping = [
 
         mode: ["m1"],
         displayCode: "digit3",
-        display: "⇔"
+        display: "<a style='color:blue;'>⇔</a>"
     },
     {
         code: "Digit4",
@@ -104,7 +104,7 @@ const KeyMapping = [
 
         mode: ["m1"],
         displayCode: "digit4",
-        display: "⇒"
+        display: "<a style='color:blue;'>⇒</a>"
     },
     {
         code: "Digit5",
@@ -113,7 +113,7 @@ const KeyMapping = [
 
         mode: ["m1"],
         displayCode: "digit5",
-        display: "∫"
+        display: "<a style='color:blue;'>∫</a>"
     },
     {
         code: "Digit6",
@@ -122,7 +122,7 @@ const KeyMapping = [
  
         mode: ["m1"],
         displayCode: "digit6",
-        display: "∑"
+        display: "<a style='color:blue;'>∑</a>"
     },
     {
         code: "Digit7",
@@ -131,7 +131,7 @@ const KeyMapping = [
 
         mode: ["m1"],
         displayCode: "digit7",
-        display: "⋃"
+        display: "<a style='color:blue;'>⋃</a>"
     },
     {
         code: "Digit8",
@@ -140,7 +140,7 @@ const KeyMapping = [
 
         mode: ["m1"],
         displayCode: "digit8",
-        display: "⋂"
+        display: "<a style='color:blue;'>⋂</a>"
     },
     {
         code: "Digit9",
@@ -149,7 +149,7 @@ const KeyMapping = [
 
         mode: ["m1"],
         displayCode: "digit9",
-        display: "≠"
+        display: "<a style='color:blue;'>≠</a>"
     },
     {
         code: "Digit0",
@@ -157,7 +157,7 @@ const KeyMapping = [
         leftKeyStroke: 0,
         mode: ["m1"],
         displayCode: "digit0",
-        display: "≈"
+        display: "<a style='color:blue;'>≈</a>"
     },
     {
         code: "Minus",
@@ -165,7 +165,7 @@ const KeyMapping = [
         leftKeyStroke: 0,
         mode: ["m1"],
         displayCode: "minus",
-        display: "≡"
+        display: "<a style='color:blue;'>≡</a>"
     },
     {
         code: "Equal",
@@ -173,7 +173,7 @@ const KeyMapping = [
         leftKeyStroke: 0,
         mode: ["m1"],
         displayCode: "equal",
-        display: "∴"
+        display: "<a style='color:blue;'>∴</a>"
     },
 
     {
@@ -182,7 +182,7 @@ const KeyMapping = [
         leftKeyStroke: 0,
         mode: ["m1"],
         displayCode: "a",
-        display: "ɑ"
+        display: "<a style='color:blue;'>ɑ</a>"
     },
     {
         code: "KeyA",
@@ -191,7 +191,7 @@ const KeyMapping = [
         leftKeyStroke: 0,
         mode: ["m1"],
         displayCode: "A",
-        display: "À"
+        display: "<a style='color:blue;'>À</a>"
     },
 ];
 
