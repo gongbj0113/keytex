@@ -60,6 +60,7 @@ const CopyButton = styled.img`
 const App = () => {
   const [latex, setLatex] = useState("\\frac{1}{\\sqrt{2}}\\cdot 2");
   const mathFieldRef = useRef(null);
+  const [keyboardMode, setKeyboardMode] = useState("m0");
 
   const copyToClipboard = () => {
     const mathField = mathFieldRef.current;
@@ -116,7 +117,7 @@ const App = () => {
   return (
     <div className="App">
       <DraggableDiv>
-        <FullLayoutKeyboard />
+        <FullLayoutKeyboard mode={keyboardMode} />
       </DraggableDiv>
       <DraggableDiv>
         <AppContaier>
@@ -148,6 +149,9 @@ const App = () => {
                   mathFieldRef.current = mathField;
                 }
               }
+              onKeyboardModeChange={(mode) => {
+                setKeyboardMode(mode);
+              }}
             />
           </div>
         </AppContaier >
