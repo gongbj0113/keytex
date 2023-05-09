@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mq-editable-field {
+  border: none;
+  font-size: 24px;
+}
+.mq-math-mode {
+  border: none;
+}
+
+.mq-editable-field.mq-focused {
+  border:none;
+  box-shadow: none;
+}
