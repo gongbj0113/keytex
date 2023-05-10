@@ -279,6 +279,30 @@ export default class FullLayoutKeyboard extends Component {
     };
   }
 
+  makeKeyboardNumPadEndOptions(mode){
+      return {
+        ...this.commonKeyboardOptions,
+        layout: {
+          default: [
+            ...this.defaultkeyboardNumPadEndOptions.layout.default
+          ],
+        },
+        display: {
+          ...this.defaultkeyboardNumPadEndOptions.layout.display,
+          ...(() => {
+            let display = {};
+            KeyMapping.forEach((key) => {
+              if (key.mode.includes(mode)) {
+                display["{" + key.displayCode + "}"] = key.display;
+              }
+            }
+            );
+            return display;
+          })(),
+        }
+      };
+  }
+
   onChange = input => {
     this.setState({
       input: input
@@ -411,7 +435,7 @@ export default class FullLayoutKeyboard extends Component {
             />
             <Keyboard
               baseClass={"simple-keyboard-numpadEnd"}
-              {...this.defaultkeyboardNumPadEndOptions}
+              {...this.makeKeyboardNumPadEndOptions(this.props.mode)}
             />
           </div>
         </div>
