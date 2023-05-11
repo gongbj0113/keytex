@@ -8,15 +8,19 @@
   height: 100vh;
 }
 
-.mq-editable-field {
-  border: none;
+.mq-editable-field .mq-math-mode {
+  border: none !important;
+}
+
+.App .mq-editable-field {
+  border: none !important;
   font-size: 24px;
 }
-.mq-math-mode {
-  border: none;
+.App .mq-math-mode {
+  border: none !important;
 }
 
 .mq-editable-field.mq-focused {
-  border:none;
-  box-shadow: none;
+  border: none !important;
+  box-shadow: none !important;
 }
