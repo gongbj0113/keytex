@@ -2,11 +2,13 @@
   "name": "keytex",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gongbj0113.github.io/keytex/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "dom-to-svg": "^0.12.2",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.6.4",
     "mathquill-node": "^1.0.8",
     "npm": "^9.6.6",
@@ -19,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

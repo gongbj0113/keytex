@@ -381,7 +381,7 @@ const KeyMapping = [
     },
     {
         code: "KeyG",
-        write: "G",
+        write: "\\Gamma",
         shift: true,
         leftKeyStroke: 0,
         mode: ["m1"],
@@ -441,8 +441,15 @@ const KeyMapping = [
     },
     {
         code: "KeyH",
+        write: "\\eta",
+        leftKeyStroke: 0,
+        mode: ["m1"],
+        displayCode: "h",
+        display: "<a style='color:blue;'>η</a>"
+    },
+    {
+        code: "KeyH",
         write: "H",
-        shift: true,
         leftKeyStroke: 0,
         mode: ["m1"],
         displayCode: "H",
@@ -535,6 +542,14 @@ const KeyMapping = [
     },
     {
         code: "KeyN",
+        write: "\\nu",
+        leftKeyStroke: 0,
+        mode: ["m1"],
+        displayCode: "n",
+        display: "<a style='color:blue;'>ν</a>"
+    },
+    {
+        code: "KeyN",
         write: "N",
         shift: true,
         leftKeyStroke: 0,
@@ -543,21 +558,21 @@ const KeyMapping = [
         display: "<a style='color:blue;'>N</a>"
     },
     {
-        code: "KeyO",
-        write: "o",
+        code: "KeyC",
+        write: "\\xi",
         leftKeyStroke: 0,
         mode: ["m1"],
-        displayCode: "o",
-        display: "<a style='color:blue;'>o</a>"
+        displayCode: "c",
+        display: "<a style='color:blue;'>ξ</a>"
     },
     {
-        code: "KeyO",
-        write: "O",
+        code: "KeyC",
+        write: "\\Xi",
         shift: true,
         leftKeyStroke: 0,
         mode: ["m1"],
-        displayCode: "O",
-        display: "<a style='color:blue;'>O</a>"
+        displayCode: "C",
+        display: "<a style='color:blue;'>Ξ</a>"
     },
     {
         code: "KeyP",
@@ -629,6 +644,14 @@ const KeyMapping = [
     },
     {
         code: "KeyU",
+        write: "\\upsilon",
+        leftKeyStroke: 0,
+        mode: ["m1"],
+        displayCode: "u",
+        display: "<a style='color:blue;'>υ</a>"
+    },
+    {
+        code: "KeyU",
         write: "\\Upsilon",
         shift: true,
         leftKeyStroke: 0,
@@ -654,15 +677,15 @@ const KeyMapping = [
         display: "<a style='color:blue;'>φ</a>"
     },
     {
-        code: "KeyC",
+        code: "KeyX",
         write: "\\chi",
         leftKeyStroke: 0,
         mode: ["m1"],
-        displayCode: "c",
+        displayCode: "x",
         display: "<a style='color:blue;'>χ</a>"
     },
     {
-        code: "KeyC",
+        code: "KeyX",
         write: "X",
         shift: true,
         leftKeyStroke: 0,
